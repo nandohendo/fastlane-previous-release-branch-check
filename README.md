@@ -1,5 +1,5 @@
 # fastlane-previous-release-branch-check
-This is a custom lane to check for commits from previous release branch.
+This is a custom lane to check for commits from previous release branch, to prevent human error when managing release branches for your app.
 
 Example of use case:
 Let's say your repository has branch release/4.2.0, this lane whill check if release/4.1.0, release/4.1.1 and so on has been merged to release/4.2.0. 
